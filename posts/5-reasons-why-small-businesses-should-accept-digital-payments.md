@@ -5,6 +5,9 @@ date: 2023-03-15
 
 In today's fast-paced world, consumers expect businesses to offer convenient and secure payment options. With the rise of technology, digital payments have become increasingly popular and are quickly becoming the norm. Small businesses must adapt to these changes if they want to remain competitive and attract new customers. We'll explore the top five reasons why small businesses should accept digital payments and how Crimbolt can help.
 
+![Fast, secure, and hassle-free payments at your fingertips](./images/fast-secure-and-hassle-free-payments-at-your-fingertips.jpg)
+*Fast, secure, and hassle-free payments at your fingertips.*
+
 ## Convenience for Customers
 
 One of the main benefits of accepting digital payments is the convenience it provides to customers. With digital payments, customers no longer need to carry cash or worry about finding an ATM. They can pay for products or services quickly and easily using their mobile devices or credit/debit cards. By accepting digital payments, small businesses can offer a convenient shopping experience to their customers and increase their satisfaction.
@@ -27,10 +30,6 @@ Finally, accepting digital payments can be more cost-effective for small busines
 
 ## How Crimbolt Can Help
 
-Crimbolt is a payment solution that offers a variety of payment options, including digital payments. With Crimbolt, small businesses can easily accept payments from customers using mobile devices or credit/debit cards. Crimbolt's payment solution is also secure and compliant with PCI-DSS regulations, ensuring that customer data is protected.
-
-In addition to digital payments, Crimbolt offers dynamic and static QR codes, allowing small businesses to accept payments from customers using QR codes. Crimbolt's payment solution is also easy to integrate with existing POS systems, making it simple for small businesses to transition to digital payments.
-
-In conclusion, small businesses should consider accepting digital payments to provide convenience to customers, speed up payments, enhance security, increase sales and save costs. With Crimbolt, small businesses can easily accept digital payments and provide a seamless payment experience to their customers. By embracing digital payments, small businesses can remain competitive and attract new customers in today's fast-paced business environment.
+Crimbolt offers dynamic and static QR codes, allowing small businesses to accept payments from customers using QR codes. Small businesses should consider accepting digital payments to provide convenience to customers, speed up payments, enhance security, increase sales and save costs. With Crimbolt, small businesses can easily accept digital payments and provide a seamless payment experience to their customers. By embracing digital payments, small businesses can remain competitive and attract new customers in today's fast-paced business environment.
 
 Start using Crimbolt today: [crimbolt.com](https://crimbolt.com)

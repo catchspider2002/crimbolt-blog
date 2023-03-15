@@ -5,6 +5,9 @@ date: 2023-03-14
 
 Are you still fumbling with cash or checks at your business? It’s time to join the digital payment revolution! Going cashless may seem daunting, but it’s easier than you think - and with Crimbolt, it’s even more accessible and convenient.
 
+![Decline of cash payments](./images/decline-of-cash-payments.jpg)
+*Decline of cash payments.*
+
 ## The Rise of Digital Payments
 
 Cash has been the king of payments for centuries, but times are changing. More and more people are using digital payment methods such as credit cards, mobile payments, and online payment systems like PayPal and Venmo. In fact, a recent survey found that 41% of Americans use mobile payment apps for purchases. The convenience of digital payments is undeniable - it's fast, secure, and offers rewards and cashback programs that cash simply can't match.
@@ -12,9 +15,6 @@ Cash has been the king of payments for centuries, but times are changing. More a
 ## Benefits of Cashless Transactions
 
 Digital payments offer several benefits for businesses as well. They are more efficient and secure than cash, as there is no need to count and store physical currency. Cashless transactions also offer better record-keeping and reporting, making it easier to track sales and expenses. And with the rise of contactless payment options like Apple Pay and Google Wallet, businesses can offer customers a seamless payment experience that saves time for everyone.
-
-![Decline of cash payments](./images/decline-of-cash-payments.jpg)
-*Decline of cash payments.*
 
 ## The Challenges of Going Cashless
 
