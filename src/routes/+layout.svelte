@@ -4,7 +4,7 @@
   import MoonIcon from 'heroicons-svelte/solid/MoonIcon.svelte'
   import SunIcon from 'heroicons-svelte/solid/SunIcon.svelte'
   import { browser } from '$app/environment'
-  import { name } from '$lib/info'
+  import { name, logo } from '$lib/info'
   import { page } from '$app/stores'
 
   let isDarkMode = browser ? Boolean(document.documentElement.classList.contains('dark')) : true
@@ -19,12 +19,13 @@
 
 <div class="flex flex-col min-h-screen ">
   <div class="flex flex-col flex-grow w-full px-4 py-2">
-    <header class="flex items-center justify-between w-full max-w-2xl py-4 mx-auto lg:pb-8">
+    <header class="flex items-center justify-between w-full max-w-3xl py-4 mx-auto lg:pb-8">
       <a
-        class="text-lg font-bold sm:text-2xl !text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-teal-600 dark:to-teal-400"
+        class="text-lg font-bold sm:text-2xl !text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-600 dark:to-green-400"
         href="/"
       >
-        {name}
+        <!-- {name} -->
+        {@html logo}
       </a>
 
       <button
@@ -52,7 +53,7 @@
     </header>
     <main
       class="flex flex-col flex-grow w-full mx-auto"
-      class:max-w-2xl={!$page.data.layout?.fullWidth}
+      class:max-w-3xl={!$page.data.layout?.fullWidth}
     >
       <slot />
     </main>

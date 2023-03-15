@@ -1,5 +1,5 @@
 <script>
-  import { website, name, bio, avatar } from '$lib/info.js'
+  import { website, name, bio, avatar, logo } from '$lib/info.js'
   import ToC from '$lib/components/ToC.svelte'
   import ArrowLeftIcon from '$lib/components/ArrowLeftIcon.svelte'
   import SocialLinks from '$lib/components/SocialLinks.svelte'
@@ -54,7 +54,7 @@
   <meta name="twitter:image" content={ogImage} />
 </svelte:head>
 
-<div class="root max-w-2xl mx-auto lg:max-w-none">
+<div class="root max-w-3xl mx-auto lg:max-w-none">
   <div class="hidden lg:block pt-8">
     <div class="sticky top-0 w-full flex justify-end pt-11 pr-8">
       <svelte:element
@@ -98,11 +98,12 @@
         </div>
         <div class="flex justify-center order-2 md:order-1 md:col-span-2">
           <a href="/" class="inline-block rounded-full">
-            <img
+            <!-- <img
               src={avatar}
               alt={name}
               class="w-24 h-24 mx-auto rounded-full md:w-28 md:h-28 ring-2 ring-zinc-200 dark:ring-zinc-700"
-            />
+            /> -->
+            {@html logo}
           </a>
         </div>
         <p class="order-3 text-base text-zinc-600 dark:text-zinc-400">
@@ -128,8 +129,8 @@
 
   @media screen(lg) {
     .root {
-      /* 42rem matches max-w-2xl */
-      grid-template-columns: 1fr 42rem 1fr;
+      /* 48rem matches max-w-3xl */
+      grid-template-columns: 1fr 48rem 1fr;
     }
   }
 </style>
