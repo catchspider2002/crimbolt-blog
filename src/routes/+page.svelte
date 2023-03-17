@@ -15,6 +15,17 @@
 
 <div class="flex flex-col flex-grow gap-8 pb-16">
   <!-- bio -->
+  <section class="w-full">
+    <div class="flex items-center justify-between gap-4 mb-8">
+      <h2 class="text-sm font-medium sm:text-base text-zinc-500 dark:text-zinc-400">
+        Recently Published
+      </h2>
+      <a href="/posts" class="flex items-center gap-1 text-sm font-medium text-green-500"
+        >View All <ArrowRightIcon class="w-4 h-4" /></a
+      >
+    </div>
+    <PostsList posts={data.posts} />
+  </section>
   <section class="flex flex-col items-center gap-16 pt-8 pb-16">
     <div class="flex flex-col items-center w-full gap-6 rounded-lg">
       <!-- <img
@@ -30,16 +41,5 @@
         {bio}
       </p>
     </div>
-  </section>
-  <section class="w-full">
-    <div class="flex items-center justify-between gap-4 mb-8">
-      <h2 class="text-sm font-medium sm:text-base text-zinc-500 dark:text-zinc-400">
-        Recently Published
-      </h2>
-      <a href="/posts" class="flex items-center gap-1 text-sm font-medium text-green-500"
-        >View All <ArrowRightIcon class="w-4 h-4" /></a
-      >
-    </div>
-    <PostsList posts={data.posts} />
   </section>
 </div>
